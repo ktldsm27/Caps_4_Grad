@@ -119,7 +119,7 @@ for (let i of products.data) {
   // Create an anchor element
   let anchor = document.createElement("a");
   anchor.classList.add("text-body-emphasis");
-  anchor.href = "cart.html"; // link
+  anchor.href = "add_to_cart.html"; // link
   anchor.addEventListener("click", function(event) {
     // Handle the click event here, e.g., navigate to the product details page
     console.log("Clicked product:", i.productName);
